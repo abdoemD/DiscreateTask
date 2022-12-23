@@ -1,0 +1,8 @@
+D:\New folder (3)\project 1\bin\Debug\project 1.exe.config
+D:\New folder (3)\project 1\bin\Debug\project 1.exe
+D:\New folder (3)\project 1\bin\Debug\project 1.pdb
+D:\New folder (3)\project 1\obj\Debug\project 1.csproj.AssemblyReference.cache
+D:\New folder (3)\project 1\obj\Debug\project 1.csproj.SuggestedBindingRedirects.cache
+D:\New folder (3)\project 1\obj\Debug\project 1.csproj.CoreCompileInputs.cache
+D:\New folder (3)\project 1\obj\Debug\project 1.exe
+D:\New folder (3)\project 1\obj\Debug\project 1.pdb
