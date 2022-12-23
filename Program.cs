@@ -1,32 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+Console.WriteLine("please enter the number smallest");
+double n1 = double.Parse(Console.ReadLine());
+Console.WriteLine("Please enter the number largest");
+double n2 = double.Parse(Console.ReadLine());
 
-namespace project_1
+for (double i = n1; i <= n2; i++)
 {
-    internal class Program
+    double sum = 0;
+    for (double y = 1; y < i; y++)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("please enter the number smallest");
-            double n1 = double.Parse(Console.ReadLine());
-            Console.WriteLine("Please enter the number largest");
-            double n2 = double.Parse(Console.ReadLine());
-
-            for (double i = n1; i <= n2; i++)
-            {
-                for (double y = 2; y <= i; y++)
-                {
-                    if (i == 2)
-                        Console.WriteLine(2);
-                    if (i % y == 0)
-                        break;
-                    else if (y == i - 1)
-                        Console.WriteLine(i);
-                }
-            }
-        }
+        if (i % y == 0)
+            sum += y;
     }
+    if (sum == i)
+        Console.WriteLine(i);
 }
